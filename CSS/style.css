@@ -250,6 +250,17 @@ footer .container .footer-socials a {
 footer .container .footer-socials a:hover {
   color: var(--StrongCyan);
 }
+@media (max-width: 1024px){
+  section.second-top .card-wrapper .left img {
+    width: 500px;
+  }
+  section.third-top .container img {
+    width: 600px;
+  }
+  section.fourth-top .container .card-wrapper-2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media (max-width: 769px) {
   section.second-top .card-wrapper .left img {
     width: 350px;
